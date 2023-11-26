@@ -500,7 +500,7 @@ progress::-webkit-progress-value {
         background: var(--grey-200);
     }
     .notification-icon{
-        margin:3px 4px;
+        margin:5px;
     }
     .admin_profile-button{
         padding:3x;
