@@ -215,6 +215,9 @@ button{
 .setup-guide{
     margin: auto;
     background: var(--bg-white);
+    border: 1px solid var(--stroke-50);
+    box-shadow: 0px 1px 0px 0px var(--shadow-light);
+    
     padding:8px;
     width: 100%;
 }
