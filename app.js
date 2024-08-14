@@ -180,7 +180,7 @@ function handleAccordionAction(e) {
 
   function closeOtherStepCards(accordionId) {
     let targetAccordion = document.getElementById(accordionId);
-    allAccordions = document.querySelectorAll('.accordion');
+    const allAccordions = document.querySelectorAll('.accordion');
     allAccordions.forEach((accordion) => {
       if (accordion !== targetAccordion) {
         accordion.classList.remove('expanded');
